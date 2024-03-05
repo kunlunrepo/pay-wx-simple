@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="payment.css">
+	</head>
+	<body>
+		<div class="panel">
+			<h3>订单结算</h3>
+			<div>
+				<div class="row">
+					<div>
+						流水号：<span id="code"></span>
+					</div>
+					<div>
+						状态：<span id="status"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div>日期：<span id="date"></span></div>
+					<div>总计：<span id="amount"></span>元</div>
+					<div>实付：<span id="pay"></span>元</div>
+				</div>
+			</div>
+			<table>
+				<tr>
+					<th>序号</th>
+					<th>餐品</th>
+					<th>数量</th>
+					<th>单价</th>
+					<th>折扣价</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>海鲜汤</td>
+					<td>1</td>
+					<td>￥58</td>
+					<td>无</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>法式焗蜗牛</td>
+					<td>1</td>
+					<td>￥88</td>
+					<td>无</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>吞拿鱼沙拉</td>
+					<td>1</td>
+					<td>￥129</td>
+					<td>无</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>香煎菲力牛排</td>
+					<td>1</td>
+					<td>￥155</td>
+					<td>无</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>海鲜意粉</td>
+					<td>1</td>
+					<td>￥56</td>
+					<td>无</td>
+				</tr>
+			</table>
+			<div class="operation">
+				<input type="button" class="pay-btn" value="结算支付" />
+			</div>
+			<div class="message">支付设备已经准备好</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/config.js"></script>
+		<script src="payment.js"></script>
+	</body>
+</html>

@@ -1,0 +1,117 @@
+html {
+	height: 100%;
+}
+
+body {}
+
+.order-list {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	color: #333;
+}
+
+.order {
+	border-bottom: solid 1px #e0e0e0;
+	padding: 15px;
+}
+
+.row {
+	padding: 8px 0;
+}
+
+.row-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row-3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.pay-btn {
+	background-color: #3DB035;
+	color: #fff;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+}
+
+.pay-btn:active {
+	background-color: #2F8829;
+}
+
+#native {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.panel {
+	background-color: #fff;
+	width: 400px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+h3 {
+	text-align: center;
+	font-size: 28px;
+	color: #333;
+	margin-top: 30px;
+}
+
+.qrcode {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.desc {
+	text-align: center;
+	font-size: 14px;
+}
+
+.close-btn {
+	width: 220px;
+	height: 45px;
+	background-color: #007AFF;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+	margin-right: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.close-btn:active {
+	background-color: #0062CD;
+}
+
+.close-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}

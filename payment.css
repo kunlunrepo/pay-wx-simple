@@ -1,0 +1,87 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.panel {
+	width: 500px;
+	border: solid 1px #e0e0e0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 15px;
+}
+
+h3 {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+table {
+	width: 90%;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	border-spacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+tr{
+	
+}
+td,th{
+	padding: 12px 0;
+	
+}
+td{
+	border-bottom: solid 1px #aaa;
+}
+th{
+	background-color: #666;
+	color: #fff;
+}
+tr:nth-child(odd){
+	background-color: #FFFFCC;
+}
+.pay-btn{
+	width: 100px;
+	height: 35px;
+	background-color: #007AFF;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+}
+.pay-btn:active {
+	background-color: #0062CD;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	font-size: 14px;
+	color: #333;
+}
+.operation{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.message{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
